@@ -58,6 +58,9 @@ p.p2{
 .col-md-6{
 	width: 47%
 }
+.md{
+	width: 96%;
+}
 }
 @media (max-width: 767px) {
 	.col-sm-12,.col-sm-4,.col-sm-6{
