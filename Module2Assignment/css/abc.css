@@ -6,23 +6,26 @@
 #head{
 	text-align: center;
 }
-
 #row{
-	background-color: pink;
+
+}
+#row1{
 	position: relative;
+	background-color: pink;
 	margin: 10px;
-	clear: right;
+  	box-sizing: border-box;
+	border:3px solid black;
 
 	}
 	
 p.p1{
 		text-align: center;
-		border: 3px solid black;
-		position: relative;
-		right : -3px;
-		top: -3px;
+		border-left: 3px solid black;
+		border-bottom: 3px solid black;
+		position: absolute;
+		right : 0px;
+		top: 0px;
 		width :100px;
-		float:right;
 	}
 .play{
 background-color: #c70039	}
@@ -32,56 +35,27 @@ background-color: #c074e8	}
 background-color: #ffc300	}
 
 p.p2{
+	margin-top: 30px;
 	padding: 10px;
-	clear:right;
 }
 @media (min-width: 992px) {
-	.col-lg-3,.col-lg-4,.col-lg-6{
+	.col-lg-4{
 	float:left;
-	border:3px solid black;
 	}
-
-.col-lg-3{
-	width: 25%
-}
 .col-lg-4{
-	width: 31%
-}
-.col-lg-6{
-	width: 45%
+	width: 33.33%
 }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-	.col-md-3,.col-md-4,.col-md-6{
+	.col-md-6,.col-md-12{
 		float:left;
-		border:3px solid black;
 	}
-.col-md-3{
-	width: 25%
-}
-.col-md-4{
-	width: 33.33%
+
+.col-md-12{
+	width: 100%
 }
 .col-md-6{
-	width: 47%
-}
-.md{
-	width: 96.38%;
-}
-}
-@media (max-width: 767px) {
-	.col-sm-12,.col-sm-4,.col-sm-6{
-float:left;
-
-		border:3px solid black;
-	}
-.col-sm-12{
-	width: 97%
-}
-.col-sm-4{
-	width: 33.33%
-}
-.col-sm-6{
 	width: 50%
 }
+
 }
